@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piénsalo un poquito más... 🥺</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #4b5563;
+            font-size: 2rem;
+            margin-bottom: 25px;
+            padding: 0 10px;
+        }
+
+        .img-container {
+            width: 100%;
+            max-width: 450px;
+            margin-bottom: 30px;
+        }
+
+        .triste-img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-regresar {
+            display: inline-block;
+            padding: 12px 35px;
+            font-size: 1.1rem;
+            background-color: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+        }
+
+        .btn-regresar:hover {
+            background-color: #2563eb;
+            transform: scale(1.03);
+        }
+
+        .btn-regresar:active {
+            transform: scale(0.97);
+        }
+
+        @media (max-width: 480px) {
+            h2 { font-size: 1.6rem; }
+            .btn-regresar { padding: 10px 25px; font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>¿Segura? Piénsalo un poquito más... 🥺</h2>
+
+    <div class="img-container">
+        <img src="TU_IMAGEN_TRISTE.jpg" alt="Piénsalo bien" class="triste-img">
+    </div>
+
+    <a href="index.html" class="btn-regresar">Volver a intentar ❤️</a>
+
+</body>
+</html>
